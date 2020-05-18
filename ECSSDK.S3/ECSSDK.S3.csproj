@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <Version>1.2.0.0</Version>
+    <Authors>ECS Application</Authors>
+    <Company>Dell EMC</Company>
+    <Product>ECS</Product>
+    <PackageId>ECSManagementSDK.test</PackageId>
+    <Description>DELL EMC ECS Management API SDK for .NET. Can be used by developers to assist with provisioning ECS resources through pre-packaged SDK.</Description>
+    <Copyright>Copyright Dell EMC 2016</Copyright>
+    <PackageProjectUrl>https://github.com/EMCECS/ecs-object-client-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EMCECS/ecs-object-client-dotnet</RepositoryUrl>
+    <PackageTags>ECS</PackageTags>
+    <RepositoryType>Git</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReleaseNotes>Add AWS V4 Signature support.</PackageReleaseNotes>
+    <UserSecretsId>dad76634-2f8f-4e90-b45e-e166dbbad870</UserSecretsId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.3.106.24" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.110.70" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

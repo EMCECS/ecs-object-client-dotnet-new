@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LaG56190Cjs7s+d/KP2Rsggcjy39MdZjZYXVSTa0RwrAJiMY4CEgdySWbNCJP+dOYJAeF0SVhpbeBg+a251JOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hem4\\ECS\\repository\\ecs-object-client-dotnet\\ECSSDK.S3\\ECSSDK.S3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hem4\\.nuget\\packages\\awssdk.core\\3.3.106.24\\awssdk.core.3.3.106.24.nupkg.sha512",
+    "C:\\Users\\hem4\\.nuget\\packages\\awssdk.s3\\3.3.110.70\\awssdk.s3.3.3.110.70.nupkg.sha512"
+  ],
+  "logs": []
+}
