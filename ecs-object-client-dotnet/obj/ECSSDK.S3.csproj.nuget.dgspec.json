@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hem4\\workspace\\ecs-object-client-dotnet\\ecs-object-client-dotnet\\ECSSDK.S3.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hem4\\workspace\\ecs-object-client-dotnet\\ecs-object-client-dotnet\\ECSSDK.S3.csproj": {
+      "version": "1.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hem4\\workspace\\ecs-object-client-dotnet\\ecs-object-client-dotnet\\ECSSDK.S3.csproj",
+        "projectName": "ECSManagementSDK.test",
+        "projectPath": "C:\\Users\\hem4\\workspace\\ecs-object-client-dotnet\\ecs-object-client-dotnet\\ECSSDK.S3.csproj",
+        "packagesPath": "C:\\Users\\hem4\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hem4\\workspace\\ecs-object-client-dotnet\\ecs-object-client-dotnet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hem4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.3.106.24, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.110.70, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
